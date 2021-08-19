@@ -8,6 +8,7 @@ def count_repeat(n):
   count = 2
   a = b = 1
   while not is_repeat(a,b):
+    count += 1
     temp = fib_next(a,b,n)
     a = b
     b = temp
